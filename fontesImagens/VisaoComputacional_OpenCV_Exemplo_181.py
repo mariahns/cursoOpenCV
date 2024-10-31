@@ -14,7 +14,7 @@ while True:
  ret, frame=video.read()
  audio_frame, val = player.get_frame()
  if not ret:
-     print("End of video")
+     print("Fim do video")
      break
  cv2.waitKey(20)
  
